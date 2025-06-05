@@ -17,7 +17,7 @@ Cookies.set('heytoken', 'ram', {
 }
 const checkCookies = async()=>{
   try{
-   const sendresponse = await axios.post('http://localhost:5000/check',{},{
+   const sendresponse = await axios.post('https://checkbackend-90i0.onrender.com/check',{},{
      withCredentials: true
    })
   }catch(err){
